@@ -55,7 +55,7 @@ const Index = () => {
       
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: data.response || data.message || "I received your message!",
+        text: data.output || data.response || data.message || "I received your message!",
         isUser: false,
         timestamp: new Date(),
       };
