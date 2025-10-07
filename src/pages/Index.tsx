@@ -82,7 +82,7 @@ const Index = () => {
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent">
               <Sparkles className="h-5 w-5 text-white" />
             </div>
-            <h1 className="text-xl font-bold gradient-text">Gemini Chat</h1>
+            <h1 className="text-xl font-bold gradient-text">Fayaz Chat</h1>
           </div>
         </div>
       </header>
