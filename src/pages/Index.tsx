@@ -14,7 +14,14 @@ interface Message {
 const WEBHOOK_URL = "http://localhost:5678/webhook/1cd817a3-af34-4ce7-b647-8bcdd28b3176";
 
 const Index = () => {
-  const [messages, setMessages] = useState<Message[]>([]);
+  const [messages, setMessages] = useState<Message[]>([
+    {
+      id: "initial",
+      text: "Hello! How may I assist you today?",
+      isUser: false,
+      timestamp: new Date(),
+    }
+  ]);
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
