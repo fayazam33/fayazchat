@@ -11,7 +11,7 @@ interface Message {
   timestamp: Date;
 }
 
-const WEBHOOK_URL = "http://localhost:5678/webhook/1cd817a3-af34-4ce7-b647-8bcdd28b3176";
+const WEBHOOK_URL = "https://fayazchat.onrender.com/webhook/1cd817a3-af34-4ce7-b647-8bcdd28b3176";
 
 const Index = () => {
   const [messages, setMessages] = useState<Message[]>([
