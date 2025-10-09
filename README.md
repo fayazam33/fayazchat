@@ -6,7 +6,7 @@
 🔗 Here i use n8n webhook. To do this i need to make my n8n locally dockerized for testing purpose
 This project is an AI-powered chatbot built using n8n , designed to automate conversations through a seamless workflow and a beautiful chat interface.
 ##  i do Live Deployment instead of local :
-- n8n Workflow: [https://fayazchat.onrender.com](https://fayazchat.onrender.com)
+- n8n Workflow: [https://fayazchat.onrender.com](https://fayazchat.onrender.com) it runs in the cloud,
 
 
 The chatbot uses an n8n webhook as the communication bridge between Lovable and the backend logic.
