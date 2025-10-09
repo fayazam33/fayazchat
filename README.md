@@ -3,10 +3,10 @@
 ## Project info
 
 ## Just for practice i make this if you need the n8n workflow you can use my json file , 
-🔗 Here i use n8n webhook. To do this i need to make my n8n locally dockerized for testing purpose
-This project is an AI-powered chatbot built using n8n , designed to automate conversations through a seamless workflow and a beautiful chat interface.
+🔗 Here i use n8n webhook. To do this i need to make my n8n locally dockerized for testing purpose. I use lovable to make me the frontend in short time.
+🔗This project is an AI-powered chatbot built using n8n , designed to automate conversations through a seamless workflow and a beautiful chat interface.
 ##  i do Live Deployment instead of local :
-- n8n Workflow: [https://fayazchat.onrender.com](https://fayazchat.onrender.com) it runs in the cloud,
+- n8n Workflow: [https://fayazchat.onrender.com](https://fayazchat.onrender.com) it runs in the cloud
 
 
 The chatbot uses an n8n webhook as the communication bridge between Lovable and the backend logic.
@@ -15,7 +15,7 @@ Incoming chat messages from Lovable are sent to the n8n webhook endpoint, which 
 
 # Key Features:
 🐳 Dockerized n8n for local workflow automation
-
+🔗 After that making it live with onrender.com 
 🔗 n8n webhook handles message routing and automation flow
 
 🧠 Integrated with Gemini API for AI-based responses
@@ -28,6 +28,10 @@ Incoming chat messages from Lovable are sent to the n8n webhook endpoint, which 
 
 n8n (workflow automation)
 
+Dockerized n8n workflow, deployed live on Render for easy access and webhook handling
+
 Gemini API (AI response generation)
 
 Webhooks & JSON-based communication
+
+
