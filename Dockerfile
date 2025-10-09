@@ -6,9 +6,11 @@ ENV N8N_BASIC_AUTH_ACTIVE=true
 ENV N8N_PORT=5678
 ENV N8N_HOST=0.0.0.0
 ENV NODE_ENV=production
-
+ENV N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
 # Expose the n8n port
 EXPOSE 5678
 
 # Start n8n
-CMD ["n8n", "start"]
+ENTRYPOINT ["n8n"]
+CMD ["start"]
+
